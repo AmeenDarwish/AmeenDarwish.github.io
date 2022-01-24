@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://hurcs.cs.huji.ac.il/ -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Welcome to the Hebrew University Research Computing Services | The Rachel and Selim Benin School of Computer Science and Engineering | The Hebrew University</title><!--<base href="/">--><base href="."><!-- Google Tag Manager --><script type="text/javascript" async="" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/analytics.js.download"></script><script async="" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/gtm.js.download"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PLQBK9B');</script><!-- End Google Tag Manager --><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/x-icon" href="https://hurcs.cs.huji.ac.il/favicon.ico"><style type="text/css">@font-face{font-family:'Assistant';font-style:normal;font-weight:200;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:200;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:200;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Assistant';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Assistant';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Assistant';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Assistant';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Assistant';font-style:normal;font-weight:800;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzamW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;}@font-face{font-family:'Assistant';font-style:normal;font-weight:800;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzZmW5Kb8VZBHR.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Assistant';font-style:normal;font-weight:800;src:url(https://fonts.gstatic.com/s/assistant/v7/2sDcZGJYnIjSi6H75xkzaGW5Kb8VZA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style><style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v94/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>        <script async="" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/js"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-79002843-1');
+  </script><!--[[testTokenHeader]]--><style type="text/css">@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style><style>body,html{margin:0;padding:0;}html{box-sizing:border-box;}*,:after,:before{box-sizing:inherit;}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;text-size-adjust:100%;}body{font-family:BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;}body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5;}body{font-size:1.1rem;line-height:1.5rem;}@media only screen and (max-width:768px){body{font-size:1rem;line-height:1.4rem;}}html{scroll-behavior:smooth;}body{font-family:Assistant,sans-serif!important;}body{font-family:almoni-neue,Arial,Helvetica,sans-serif;}body,html{height:100%;}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif;}</style><link rel="stylesheet" href="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/styles.css" media="all" onload="this.media=&#39;all&#39;"><noscript><link rel="stylesheet" href="/angular-apps/ngcs-client/styles.css"></noscript><script>var jsDecorCache={"layout":null}</script><style>.main-drawer-container[_ngcontent-fdb-c97]{width:100%;height:100vh;border:1px solid #00000080}.main-drawer-sidenav-content[_ngcontent-fdb-c97]{height:100%}.main-drawer-sidenav[_ngcontent-fdb-c97]{width:380px;padding:0}</style><style></style><style>.is-padding-5[_ngcontent-fdb-c92]{padding:10px}.brand-message[_ngcontent-fdb-c92]{flex-grow:1;text-align:center;font-size:larger!important;align-items:center;display:flex;justify-content:center}</style><style>.scroll-to-top[_ngcontent-fdb-c95]{position:fixed}</style><style>.mat-icon{background-repeat:no-repeat;display:inline-block;fill:currentColor;height:24px;width:24px}.mat-icon.mat-icon-inline{font-size:inherit;height:inherit;line-height:inherit;width:inherit}[dir=rtl] .mat-icon-rtl-mirror{transform:scale(-1, 1)}.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon,.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon{display:block}.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon-button .mat-icon,.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button .mat-icon{margin:auto}
+</style></head><body class="cs-tpl_org main-design">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLQBK9B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <app-root _nghost-fdb-c97="" class="ng-tns-c97-0" ng-version="12.1.1"><div _ngcontent-fdb-c97="" id="body-wrapper" class="cs-bulma ng-tns-c97-0 locale-en">
+  <cs-header _ngcontent-fdb-c97="" class="ng-tns-c97-0" _nghost-fdb-c86=""><div _ngcontent-fdb-c86="" class="container1">
+  <div _ngcontent-fdb-c86="" class="columns is-mobile is-vcentered">
+    <div _ngcontent-fdb-c86="" class="column">
+      <div _ngcontent-fdb-c86="" class="is-pulled-left">
+        <a _ngcontent-fdb-c86="" href="https://www.cs.huji.ac.il/" class="valign-bottom">
+          <cs-media-preview _ngcontent-fdb-c86="" _nghost-fdb-c62=""><!---->
+
+<div _ngcontent-fdb-c62="" class="ng-star-inserted">
+  <img _ngcontent-fdb-c62="" class="responsive-image" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/cse_banner.jpg">
+</div><!---->
+
+</cs-media-preview>
+        </a>
+      </div>
+    </div>
+
+    <div _ngcontent-fdb-c86="" class="column is-hidden-tablet is-one-fifth">
+      <div _ngcontent-fdb-c86="" class="is-pulled-right pt-3">
+        <a _ngcontent-fdb-c86="" href="https://new.huji.ac.il/">
+          <cs-media-preview _ngcontent-fdb-c86="" _nghost-fdb-c62=""><!---->
+
+<div _ngcontent-fdb-c62="" class="ng-star-inserted">
+  <img _ngcontent-fdb-c62="" class="responsive-image" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/huji_logo_160.jpg" style="max-height: 50px;">
+</div><!---->
+
+</cs-media-preview>
+        </a>
+      </div>
+
+    </div>
+
+
+    <div _ngcontent-fdb-c86="" class="column is-hidden-touch">
+      <!---->
+    </div>
+
+    <div _ngcontent-fdb-c86="" class="column is-hidden-mobile">
+
+      <div _ngcontent-fdb-c86="" class="is-pulled-right pt-1 px-2">
+        <a _ngcontent-fdb-c86="" href="https://new.huji.ac.il/" class="valign-bottom">
+          <cs-media-preview _ngcontent-fdb-c86="" _nghost-fdb-c62=""><!---->
+
+<div _ngcontent-fdb-c62="" class="ng-star-inserted">
+  <img _ngcontent-fdb-c62="" class="responsive-image" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/huji_banner.png">
+</div><!---->
+
+</cs-media-preview>
+        </a>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+</cs-header>
+  
+
+  
+  <cs-main-menu _ngcontent-fdb-c97="" class="has-background-black mb-5-1 ng-tns-c97-0 ng-tns-c92-1" _nghost-fdb-c92=""><nav _ngcontent-fdb-c92="" role="navigation" aria-label="main navigation" class="navbar cs-main-menu is-black container is-locale-sensitive-wrapper ng-tns-c92-1">
+  <div _ngcontent-fdb-c92="" class="navbar-brand ng-tns-c92-1">
+
+    <a _ngcontent-fdb-c92="" class="navbar-item ng-tns-c92-1" href="https://hurcs.cs.huji.ac.il/">
+      <span _ngcontent-fdb-c92="" class="material-icons ng-tns-c92-1">home</span>
+    </a>
+
+
+      <!---->
+
+
+
+
+
+
+
+    <!---->
+
+    <a _ngcontent-fdb-c92="" role="button" csmobilemenutoggle="" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" class="navbar-burger burger ng-tns-c92-1">
+      <span _ngcontent-fdb-c92="" aria-hidden="true" class="ng-tns-c92-1"></span>
+      <span _ngcontent-fdb-c92="" aria-hidden="true" class="ng-tns-c92-1"></span>
+      <span _ngcontent-fdb-c92="" aria-hidden="true" class="ng-tns-c92-1"></span>
+    </a>
+
+
+
+
+
+  </div>
+
+  <div _ngcontent-fdb-c92="" id="navbarBasicExample" class="navbar-menu ng-tns-c92-1 ng-star-inserted">
+    <div _ngcontent-fdb-c92="" class="navbar-start ng-tns-c92-1">
+
+
+
+
+      <div _ngcontent-fdb-c92="" class="navbar-item is-hidden-desktop ng-tns-c92-1 ng-star-inserted">
+        <a _ngcontent-fdb-c92="" class="ng-tns-c92-1">
+          <span _ngcontent-fdb-c92="" class="material-icons ng-tns-c92-1 ng-star-inserted">search</span><!---->
+          <!---->
+        </a>
+      </div><!---->
+
+
+
+      <!---->
+
+
+
+
+      <div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/about">
+          About
+          </a><!---->
+        
+
+
+        <!---->
+  </div><div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/services">
+          Services
+          </a><!---->
+        
+
+
+        <!---->
+  </div><div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/accounts">
+          Register
+          </a><!---->
+        
+
+
+        <!---->
+  </div><div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/team">
+          Team
+          </a><!---->
+        
+
+
+        <!---->
+  </div><div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/contact-us">
+          Contact us
+          </a><!---->
+        
+
+
+        <!---->
+  </div><div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+
+        <a _ngcontent-fdb-c92="" class="navbar-link cs-navbar-link-clickable is-arrowless locale-ltr ng-tns-c92-1 csLink-added ng-star-inserted" href="https://hurcs.cs.huji.ac.il/hurts-wiki">
+          Wiki
+          </a><!---->
+        
+
+
+        <!---->
+  </div><!---->
+    </div>
+
+
+
+
+
+    <div _ngcontent-fdb-c92="" class="navbar-end ng-tns-c92-1">
+      <!---->
+      <div _ngcontent-fdb-c92="" class="navbar-item has-dropdown is-hoverable ng-tns-c92-1 ng-star-inserted">
+        <a _ngcontent-fdb-c92="" class="navbar-item ng-tns-c92-1">
+          <span _ngcontent-fdb-c92="" class="material-icons ng-tns-c92-1 ng-star-inserted">search</span><!---->
+          <!---->
+        </a>
+      </div><!---->
+
+      
+      <!---->
+    </div>
+
+
+  </div><!---->
+</nav>
+
+<!---->
+</cs-main-menu>
+
+
+  <div _ngcontent-fdb-c97="" id="body-content" class="is-flex ng-tns-c97-0">
+    <div _ngcontent-fdb-c97="" class="is-debug has-text-info-light ng-tns-c97-0">
+      <div _ngcontent-fdb-c97="" class="columns ng-tns-c97-0">
+        <div _ngcontent-fdb-c97="" class="column is-2 ng-tns-c97-0">
+          <strong _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+            PageId: 5689
+          </strong>
+
+        </div>
+        <div _ngcontent-fdb-c97="" class="column is-1 is-show-debug-level-2 ng-tns-c97-0">
+          <button _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+            Bottomsheet
+          </button>
+          <button _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+            column border
+          </button>
+
+        </div>
+        <div _ngcontent-fdb-c97="" class="column is-3 ng-tns-c97-0">
+          Route to page
+          <input _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+          <button _ngcontent-fdb-c97="" class="ng-tns-c97-0">Go</button>
+        </div>
+
+        <div _ngcontent-fdb-c97="" class="column is-3 ng-tns-c97-0">
+          <div _ngcontent-fdb-c97="" class="button ng-tns-c97-0">Remove debug design</div>
+        </div>
+      </div>
+    </div>
+    <router-outlet _ngcontent-fdb-c97="" class="ng-tns-c97-0"></router-outlet><cs-page-wrapper _nghost-fdb-c84="" class="ng-star-inserted">
+<!---->
+
+<div _ngcontent-fdb-c84="" class="cs-page cs-text is-flex is-flex-direction-column container ng-star-inserted">
+
+  <div _ngcontent-fdb-c84="" class="is-flex is-flex-direction-column is-flex-grow-1">
+    
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    
+      <cs-page _ngcontent-fdb-c84="" class="is-flex is-flex-direction-column is-flex-grow-1 ng-star-inserted" _nghost-fdb-c83="">
+<div _ngcontent-fdb-c83="" class="is-locale-sensitive-wrapper is-flex is-flex-direction-column is-flex-grow-1 ng-star-inserted">
+
+  
+  
+  
+  
+  
+
+  <!---->
+
+
+  
+  
+  
+  
+  
+
+  <div _ngcontent-fdb-c83="" class="columns is-paddingless is-marginless is-multiline ng-star-inserted">
+    <div _ngcontent-fdb-c83="" class="column is-12 is-marginless is-paddingless">
+      <div _ngcontent-fdb-c83="">
+        <h2 _ngcontent-fdb-c83="" class="cs-page-title title px-4 py-4 is-size-2 has-text-weight-normal">Welcome to the Hebrew University Research Computing Services</h2>
+      </div>
+    </div>
+  </div><!---->
+
+
+  <div _ngcontent-fdb-c83="" class="columns is-paddingless is-marginless mt-5">
+
+    
+    
+    
+    
+    
+
+      <!---->
+
+      
+      
+      
+      
+      
+
+      <div _ngcontent-fdb-c83="" class="column is-marginless is-paddingless cs-page-layout-main">
+        <div _ngcontent-fdb-c83="" class="mx-4-old">
+
+      
+          <cs-content-grid-wrapper _ngcontent-fdb-c83="" _nghost-fdb-c78="">
+
+
+<div _ngcontent-fdb-c78="" class="columns is-marginless is-paddingless is-multiline">
+  <div _ngcontent-fdb-c78="" class="column is-12 is-paddingless is-marginless ng-star-inserted">
+    <div _ngcontent-fdb-c78="">
+      <div _ngcontent-fdb-c78="">
+        <cs-content _ngcontent-fdb-c78="" _nghost-fdb-c77="" class="ng-star-inserted"><div _ngcontent-fdb-c77="" class="cs-content content-type- mb-3">
+
+  <a _ngcontent-fdb-c77="" name="content_5690"></a>
+
+
+
+  <div _ngcontent-fdb-c77="">
+
+
+
+    <!---->
+
+
+
+
+
+
+    <div _ngcontent-fdb-c77="" class="ng-star-inserted">
+
+      
+      <!---->
+
+      <div _ngcontent-fdb-c77="">
+
+        
+        <!---->
+
+        
+        <!---->
+
+        
+        <!---->
+
+        
+        <!---->
+
+        
+        <!---->
+        <!---->
+
+        
+        <!---->
+
+        
+        <!---->
+
+        
+        <!---->
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+
+        <!---->
+
+
+        <cs-content-text _ngcontent-fdb-c77="" class="content-type-text ng-star-inserted" _nghost-fdb-c53=""><div _ngcontent-fdb-c53="">
+  <div _ngcontent-fdb-c53="" class="columns is-multiline is-marginless is-paddingless">
+
+    <div _ngcontent-fdb-c53="" class="column is-12 is-paddingless is-marginless">
+
+      <div _ngcontent-fdb-c53="" class="columns is-multiline is-marginless is-paddingless">
+
+        
+
+
+
+        <!---->
+
+
+
+        <div _ngcontent-fdb-c53="" class="column cs-content-text mt-0 pt-0 is-12-mobile is-12">
+          <div _ngcontent-fdb-c53="" cslinkinblankifexternal="" class="content"><p>As of 2021, the Hebrew University provides centralized research computing services (RCS) to all members of the Hebrew University, as well as users from other universities.</p>
+
+<p>&nbsp;</p>
+
+<p>The services are designed to lower computation costs and to free researchers and academic units from the burden of maintaining independent computational facilities. By implementing a modern cooling design, the centralized computing services are also a green step forward.&nbsp;&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>RCS provides local cloud-like services for all types of computations, such as:</p>
+
+<p>- Processing on CPU nodes</p>
+
+<p>- Processing on GPU nodes</p>
+
+<p>- Server and web services&nbsp;</p>
+
+<p>- Data storage and backup</p>
+
+<p>- Software development</p>
+
+<p>&nbsp;</p>
+
+<p>RCS provides technical support and assistance in optimising the execution of various software applications, such as:&nbsp;</p>
+
+<p>- Numerical simulations</p>
+
+<p>- Image processing&nbsp;</p>
+
+<p>- Machine learning algorithms</p>
+
+<p>- Big Data analysis</p>
+
+<p>- Statistical computations</p>
+</div>
+
+
+          
+
+          <!---->
+
+          
+
+          <!---->
+
+          
+
+          
+
+
+
+
+
+          <!---->
+
+
+
+
+
+          <div _ngcontent-fdb-c53="" class="ng-star-inserted">
+            <cs-content-file-wrapper _ngcontent-fdb-c53="" _nghost-fdb-c51=""><div _ngcontent-fdb-c51="" class="columns">
+  <!---->
+</div>
+</cs-content-file-wrapper>
+          </div><!---->
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+      <!---->
+
+
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+</cs-content-text><!---->
+
+      </div>
+
+    </div><!---->
+
+  </div>
+
+
+
+  
+</div>
+
+
+
+
+</cs-content><!---->
+      </div>
+    </div>
+  </div><!---->
+</div>
+
+</cs-content-grid-wrapper>
+
+
+          
+
+          <!---->
+
+
+          <div _ngcontent-fdb-c83="" class="mx-4">
+
+            
+
+            <!---->
+
+            
+
+            <!---->
+          </div>
+        </div>
+      </div>
+
+      
+      
+      
+      
+      
+
+      <!---->
+  </div>
+
+
+  
+  
+  
+  
+  
+  <div _ngcontent-fdb-c83="" class="columns is-paddingless is-marginless">
+    <div _ngcontent-fdb-c83="" class="column is-12 is-paddingless is-marginless">
+      <!---->
+    </div>
+  </div>
+
+
+  
+  
+  
+  
+  
+  <!---->
+
+
+  
+  <div _ngcontent-fdb-c83="" class="mt-6 is-flex-grow-1"></div>
+
+  
+  
+  
+  
+  
+  <!---->
+
+
+
+</div><!---->
+</cs-page><!---->
+  </div>
+
+    
+</div><!---->
+
+
+</cs-page-wrapper><!---->
+  </div>
+  <cs-footer _ngcontent-fdb-c97="" class="mt-6-1 ng-tns-c97-0" _nghost-fdb-c94=""><div _ngcontent-fdb-c94="" class="cs-footer has-background-black">
+  <footer _ngcontent-fdb-c94="" class="footer container has-background-black py-4 mt-2-1">
+
+    <div _ngcontent-fdb-c94="" class="content">
+
+      <div _ngcontent-fdb-c94="" class="columns">
+        <div _ngcontent-fdb-c94="" class="column">
+          <cs-social-icons _ngcontent-fdb-c94="" _nghost-fdb-c93="">
+<div _ngcontent-fdb-c93="" class="columns is-mobile">
+  <div _ngcontent-fdb-c93="" class="column ng-star-inserted">
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+
+    <!---->
+  </div><!---->
+</div>
+
+
+
+
+
+
+
+</cs-social-icons>
+        </div>
+        <div _ngcontent-fdb-c94="" class="column has-text-right">
+          <div _ngcontent-fdb-c94="" class="cs-color-1-text">
+            <a _ngcontent-fdb-c94="" href="mailto:webmaster@cs.huji.ac.il" class="cs-color-1-text">Any suggestions? Missing info? Found a bug?</a>
+          </div>
+
+        </div>
+      </div>
+      <div _ngcontent-fdb-c94="">
+
+
+
+
+
+
+
+
+
+
+        <hr _ngcontent-fdb-c94="" class="cs-color-0">
+        <div _ngcontent-fdb-c94="" class="cs-color-white-text">
+          © 2020 The Hebrew University of Jerusalem
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</div>
+
+</cs-footer>
+  <tr-scroll-to-top _ngcontent-fdb-c97="" class="ng-tns-c97-0 ng-tns-c95-2" _nghost-fdb-c95=""><!---->
+</tr-scroll-to-top>
+
+  <!---->
+
+  <div _ngcontent-fdb-c97="" style="position: fixed; top: 0px; left: 0px; width: 380px; height: 100vh; padding: 1px; background-color: lightgrey; z-index: 1001; transform: translateX(-100%);" class="ng-tns-c97-0 is-hidden-1 ng-trigger ng-trigger-slideInOut">
+        <div _ngcontent-fdb-c97="" style="position: relative; height: 100vh;" class="ng-tns-c97-0">
+          <div _ngcontent-fdb-c97="" style="height: 100%; display: flex; flex-flow: column;" class="ng-tns-c97-0">
+            <div _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+              <div _ngcontent-fdb-c97="" class="tr-is-fullwidth ng-tns-c97-0">
+                <button _ngcontent-fdb-c97="" mat-icon-button="" aria-label="Example icon button with a vertical three dot icon" class="tr-is-fullwidth is-hover cs-color-black cs-color-white-text ng-tns-c97-0">
+                  <mat-icon _ngcontent-fdb-c97="" role="img" class="mat-icon notranslate ng-tns-c97-0 material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">keyboard_return</mat-icon>
+                </button>
+              </div>
+            </div>
+            <div _ngcontent-fdb-c97="" style="flex: 1 1 auto;" class="ng-tns-c97-0">
+              <iframe _ngcontent-fdb-c97="" height="100%" width="100%" class="ng-tns-c97-0" src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/saved_resource.html"></iframe>
+            </div>
+            <div _ngcontent-fdb-c97="" class="ng-tns-c97-0">
+              <div _ngcontent-fdb-c97="" class="tr-is-fullwidth ng-tns-c97-0">
+              <button _ngcontent-fdb-c97="" mat-icon-button="" aria-label="Example icon button with a vertical three dot icon" class="tr-is-fullwidth is-hover cs-color-black cs-color-white-text ng-tns-c97-0">
+                <mat-icon _ngcontent-fdb-c97="" role="img" class="mat-icon notranslate ng-tns-c97-0 material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">keyboard_return</mat-icon>
+              </button>
+            </div></div>
+          </div>
+
+
+        </div>
+  </div>
+
+</div>
+
+</app-root>        <script>
+        var siteDataJson = {"id":5688,"asset_id":0,"type":"MINI_SITE","remarks":"","user_id":5,"site_id":136,"created_at":"2020-10-29 09:22:28","updated_at":"2022-01-24 08:53:23","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"hide","useRegularPageForHomepage":"true"},"locale":{"en":{"id":5688,"url":"hurcs.cs.huji.ac.il","text":"site text","type":"MINI_SITE","alias":"HURCS","title":"The Hebrew University Research Computing Services","menu_id":5691,"gallery_id":"","footer_html":"","homepage_id":5689,"abbreviation":"hurcs","multilingual":0,"link_boxes_id":"","banner_icon_url":"","mobile_navbar_text":"","google_analytics_id":"","google_tags_container_id":"GTM-K5J8ND9"},"he":{"id":null,"url":"","text":"","type":"MINI_SITE","alias":"","title":"","menu_id":0,"gallery_id":null,"footer_html":"","homepage_id":0,"abbreviation":"","multilingual":0,"link_boxes_id":null,"banner_icon_url":"","mobile_navbar_text":"","google_analytics_id":"","google_tags_container_id":""}}},"homepage":{"id":5689,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:24:57","updated_at":"2021-03-22 11:39:41","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"hurcs-homepage","title":"Welcome to the Hebrew University Research Computing Services","menu_link":"","menu_title":"HURCS homepage"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"contents":[{"id":5690,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:24:57","updated_at":"2021-03-22 11:39:41","active":1,"visible":1,"json_data":{"attrs":{"hilite":"0","borderTop":"0","showTitle":"hide","showFooter":"show","borderStyle":"0","borderBottom":"0","isMediaCircle":"0","personsActive":"csClosed"},"locale":{"en":{"lang":"en","link":"","text":"<p>As of 2021, the Hebrew University provides centralized research computing services (RCS) to all members of the Hebrew University, as well as users from other universities.<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>The services are designed to lower computation costs and to free researchers and academic units from the burden of maintaining independent computational facilities. By implementing a modern cooling design, the centralized computing services are also a green step forward.&nbsp;&nbsp;&nbsp;<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides local cloud-like services for all types of computations, such as:<\/p>\n\n<p>- Processing on CPU nodes<\/p>\n\n<p>- Processing on GPU nodes<\/p>\n\n<p>- Server and web services&nbsp;<\/p>\n\n<p>- Data storage and backup<\/p>\n\n<p>- Software development<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides technical support and assistance in optimising the execution of various software applications, such as:&nbsp;<\/p>\n\n<p>- Numerical simulations<\/p>\n\n<p>- Image processing&nbsp;<\/p>\n\n<p>- Machine learning algorithms<\/p>\n\n<p>- Big Data analysis<\/p>\n\n<p>- Statistical computations<\/p>\n","type":"","title":"Welcome to the Hebrew University Research Computing Services","link_text":""},"he":{"lang":"he","link":"","text":"","type":"","title":"","link_text":""}}},"persons":[],"medias":[],"person_medias_raw":[],"roles":[],"galleries":[],"files":[],"title":"Welcome to the Hebrew University Research Computing Services","text":"<p>As of 2021, the Hebrew University provides centralized research computing services (RCS) to all members of the Hebrew University, as well as users from other universities.<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>The services are designed to lower computation costs and to free researchers and academic units from the burden of maintaining independent computational facilities. By implementing a modern cooling design, the centralized computing services are also a green step forward.&nbsp;&nbsp;&nbsp;<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides local cloud-like services for all types of computations, such as:<\/p>\n\n<p>- Processing on CPU nodes<\/p>\n\n<p>- Processing on GPU nodes<\/p>\n\n<p>- Server and web services&nbsp;<\/p>\n\n<p>- Data storage and backup<\/p>\n\n<p>- Software development<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides technical support and assistance in optimising the execution of various software applications, such as:&nbsp;<\/p>\n\n<p>- Numerical simulations<\/p>\n\n<p>- Image processing&nbsp;<\/p>\n\n<p>- Machine learning algorithms<\/p>\n\n<p>- Big Data analysis<\/p>\n\n<p>- Statistical computations<\/p>\n","link":"","link_text":"","locale":{"he":{"lang":"he","link":"","text":"","type":"","title":"","link_text":""},"en":{"lang":"en","link":"","text":"<p>As of 2021, the Hebrew University provides centralized research computing services (RCS) to all members of the Hebrew University, as well as users from other universities.<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>The services are designed to lower computation costs and to free researchers and academic units from the burden of maintaining independent computational facilities. By implementing a modern cooling design, the centralized computing services are also a green step forward.&nbsp;&nbsp;&nbsp;<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides local cloud-like services for all types of computations, such as:<\/p>\n\n<p>- Processing on CPU nodes<\/p>\n\n<p>- Processing on GPU nodes<\/p>\n\n<p>- Server and web services&nbsp;<\/p>\n\n<p>- Data storage and backup<\/p>\n\n<p>- Software development<\/p>\n\n<p>&nbsp;<\/p>\n\n<p>RCS provides technical support and assistance in optimising the execution of various software applications, such as:&nbsp;<\/p>\n\n<p>- Numerical simulations<\/p>\n\n<p>- Image processing&nbsp;<\/p>\n\n<p>- Machine learning algorithms<\/p>\n\n<p>- Big Data analysis<\/p>\n\n<p>- Statistical computations<\/p>\n","type":"","title":"Welcome to the Hebrew University Research Computing Services","link_text":""}},"media":[],"title_anchor":"welcome-to-the-hebrew-university-research-computing-services","random_uid":"61ee292389c81","attrs":{"hilite":"0","borderTop":"0","showTitle":"hide","showFooter":"show","borderStyle":"0","borderBottom":"0","isMediaCircle":"0","personsActive":"csClosed"},"opened_for_edit":false,"is_allowed":0,"hl":"en","image_data":null}],"title":"Welcome to the Hebrew University Research Computing Services","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"hurcs-homepage","title":"Welcome to the Hebrew University Research Computing Services","menu_link":"","menu_title":"HURCS homepage"}},"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"hurcs-homepage","menu_title":"HURCS homepage","menu_link":"","created_at_ms":1603956297000,"updated_at_ms":1616405981000,"opened_for_edit":false,"is_allowed":0,"hl":"en"},"mainmenu":{"id":5691,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:25:23","updated_at":"2021-06-13 13:24:15","active":1,"visible":1,"json_data":{"locale":{"en":{"title":"HURCS - Main Menu"},"he":{"title":"Main Menu"}}},"menu_pages_decorated":[[{"id":5692,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:32:20","updated_at":"2021-03-22 11:32:52","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"about","title":"About","menu_link":"","menu_title":"About"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"about","path":"about","title":"About","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"about","title":"About","menu_link":"","menu_title":"About"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"about","menu_title":"About","menu_link":"","created_at_ms":1603956740000,"updated_at_ms":1616405572000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5692,"data_integer":0,"id":4899,"visible":1}}],[{"id":5694,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:34:21","updated_at":"2021-08-26 17:35:20","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"services","title":"Services","menu_link":"","menu_title":"Services"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"services","path":"services","title":"Services","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"services","title":"Services","menu_link":"","menu_title":"Services"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"services","menu_title":"Services","menu_link":"","created_at_ms":1603956861000,"updated_at_ms":1629988520000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5694,"data_integer":1,"id":4900,"visible":1}}],[{"id":7033,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2021-06-13 13:21:56","updated_at":"2021-12-29 10:24:55","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"accounts","title":"Register for research computing services","menu_link":"","menu_title":"Register"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"accounts","path":"accounts","title":"Register for research computing services","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"accounts","title":"Register for research computing services","menu_link":"","menu_title":"Register"}},"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"accounts","menu_title":"Register","menu_link":"","created_at_ms":1623579716000,"updated_at_ms":1640766295000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":7033,"data_integer":2,"id":4901,"visible":1}}],[{"id":6705,"asset_id":0,"type":"","remarks":"","user_id":3604,"site_id":5688,"created_at":"2021-03-21 22:36:24","updated_at":"2022-01-24 10:48:43","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","pageLayout":"None","pageLayoutGrid":"1-col-full-width","showLastUpdate":"1","paddingYContent":"py-3","isContainerWrapperExternal":"0","isContainerWrapperInternal":"1"},"locale":{"en":{"text":"","type":"","alias":"team","title":"Team","menu_link":"","menu_title":"Team"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"team","path":"team","title":"Team","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"team","title":"Team","menu_link":"","menu_title":"Team"}},"attrs":{"showTitle":"show","pageLayout":"None","pageLayoutGrid":"1-col-full-width","showLastUpdate":"1","paddingYContent":"py-3","isContainerWrapperExternal":"0","isContainerWrapperInternal":"1"},"alias":"team","menu_title":"Team","menu_link":"","created_at_ms":1616358984000,"updated_at_ms":1643014123000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":6705,"data_integer":3,"id":4902,"visible":1}}],[{"id":5696,"asset_id":0,"type":"","remarks":"","user_id":3604,"site_id":5688,"created_at":"2020-10-29 09:36:00","updated_at":"2022-01-24 10:51:33","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"contact-us","title":"Contact us","menu_link":"","menu_title":"Contact us"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"contact-us","path":"contact-us","title":"Contact us","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"contact-us","title":"Contact us","menu_link":"","menu_title":"Contact us"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"contact-us","menu_title":"Contact us","menu_link":"","created_at_ms":1603956960000,"updated_at_ms":1643014293000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5696,"data_integer":4,"id":4903,"visible":1}}],[{"id":6708,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2021-03-21 22:52:53","updated_at":"2021-09-13 09:09:16","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"hurts-wiki","title":"Wiki","menu_link":"","menu_title":"Wiki"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"hurts-wiki","path":"hurts-wiki","title":"Wiki","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"hurts-wiki","title":"Wiki","menu_link":"","menu_title":"Wiki"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"hurts-wiki","menu_title":"Wiki","menu_link":"","created_at_ms":1616359973000,"updated_at_ms":1631513356000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":6708,"data_integer":5,"id":4904,"visible":1}}]],"menu_pages_aliases":{"about":5692,"services":5694,"accounts":7033,"team":6705,"contact-us":5696,"hurts-wiki":6708},"title":"HURCS - Main Menu","is_allowed":0,"menu_pages":[{"id":5692,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:32:20","updated_at":"2021-03-22 11:32:52","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"about","title":"About","menu_link":"","menu_title":"About"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"about","path":"about","title":"About","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"about","title":"About","menu_link":"","menu_title":"About"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"about","menu_title":"About","menu_link":"","created_at_ms":1603956740000,"updated_at_ms":1616405572000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5692,"data_integer":0,"id":4899,"visible":1}},{"id":5694,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2020-10-29 09:34:21","updated_at":"2021-08-26 17:35:20","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"services","title":"Services","menu_link":"","menu_title":"Services"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"services","path":"services","title":"Services","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"services","title":"Services","menu_link":"","menu_title":"Services"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"services","menu_title":"Services","menu_link":"","created_at_ms":1603956861000,"updated_at_ms":1629988520000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5694,"data_integer":1,"id":4900,"visible":1}},{"id":7033,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2021-06-13 13:21:56","updated_at":"2021-12-29 10:24:55","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"accounts","title":"Register for research computing services","menu_link":"","menu_title":"Register"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"accounts","path":"accounts","title":"Register for research computing services","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"accounts","title":"Register for research computing services","menu_link":"","menu_title":"Register"}},"attrs":{"showTitle":"show","showLastUpdate":"1","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"accounts","menu_title":"Register","menu_link":"","created_at_ms":1623579716000,"updated_at_ms":1640766295000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":7033,"data_integer":2,"id":4901,"visible":1}},{"id":6705,"asset_id":0,"type":"","remarks":"","user_id":3604,"site_id":5688,"created_at":"2021-03-21 22:36:24","updated_at":"2022-01-24 10:48:43","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","pageLayout":"None","pageLayoutGrid":"1-col-full-width","showLastUpdate":"1","paddingYContent":"py-3","isContainerWrapperExternal":"0","isContainerWrapperInternal":"1"},"locale":{"en":{"text":"","type":"","alias":"team","title":"Team","menu_link":"","menu_title":"Team"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"team","path":"team","title":"Team","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"team","title":"Team","menu_link":"","menu_title":"Team"}},"attrs":{"showTitle":"show","pageLayout":"None","pageLayoutGrid":"1-col-full-width","showLastUpdate":"1","paddingYContent":"py-3","isContainerWrapperExternal":"0","isContainerWrapperInternal":"1"},"alias":"team","menu_title":"Team","menu_link":"","created_at_ms":1616358984000,"updated_at_ms":1643014123000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":6705,"data_integer":3,"id":4902,"visible":1}},{"id":5696,"asset_id":0,"type":"","remarks":"","user_id":3604,"site_id":5688,"created_at":"2020-10-29 09:36:00","updated_at":"2022-01-24 10:51:33","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"contact-us","title":"Contact us","menu_link":"","menu_title":"Contact us"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"contact-us","path":"contact-us","title":"Contact us","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"contact-us","title":"Contact us","menu_link":"","menu_title":"Contact us"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"contact-us","menu_title":"Contact us","menu_link":"","created_at_ms":1603956960000,"updated_at_ms":1643014293000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":5696,"data_integer":4,"id":4903,"visible":1}},{"id":6708,"asset_id":0,"type":"","remarks":"","user_id":5133,"site_id":5688,"created_at":"2021-03-21 22:52:53","updated_at":"2021-09-13 09:09:16","active":1,"visible":1,"json_data":{"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"locale":{"en":{"text":"","type":"","alias":"hurts-wiki","title":"Wiki","menu_link":"","menu_title":"Wiki"},"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""}}},"menu_hidden":0,"full_alias":"hurts-wiki","path":"hurts-wiki","title":"Wiki","text":"","locale":{"he":{"text":"","type":"","alias":"","title":"","menu_link":"","menu_title":""},"en":{"text":"","type":"","alias":"hurts-wiki","title":"Wiki","menu_link":"","menu_title":"Wiki"}},"attrs":{"showTitle":"show","showLastUpdate":"0","isContainerWrapperExternal":"1","isContainerWrapperInternal":"0"},"alias":"hurts-wiki","menu_title":"Wiki","menu_link":"","created_at_ms":1616359973000,"updated_at_ms":1631513356000,"opened_for_edit":false,"is_allowed":0,"hl":"en","pivot":{"containerable_id":5691,"container_id":6708,"data_integer":5,"id":4904,"visible":1}}]},"is_main":false,"title_postfix":"The Hebrew University Research Computing Services | The Rachel and Selim Benin School of Computer Science and Engineering | The Hebrew University","title":"The Hebrew University Research Computing Services","alias":"HURCS","footer_html":"","menu_id":5691,"gallery_id":"","text":"site text","locale":{"he":{"id":null,"url":"","text":"","type":"MINI_SITE","alias":"","title":"","menu_id":0,"gallery_id":null,"footer_html":"","homepage_id":0,"abbreviation":"","multilingual":0,"link_boxes_id":null,"banner_icon_url":"","mobile_navbar_text":"","google_analytics_id":"","google_tags_container_id":""},"en":{"id":5688,"url":"hurcs.cs.huji.ac.il","text":"site text","type":"MINI_SITE","alias":"HURCS","title":"The Hebrew University Research Computing Services","menu_id":5691,"gallery_id":"","footer_html":"","homepage_id":5689,"abbreviation":"hurcs","multilingual":0,"link_boxes_id":"","banner_icon_url":"","mobile_navbar_text":"","google_analytics_id":"","google_tags_container_id":"GTM-K5J8ND9"}},"link_boxes_id":"","homepage_id":5689,"is_allowed":0,"url":"hurcs.cs.huji.ac.il","multilingual":0,"attrs":{"showTitle":"hide","useRegularPageForHomepage":"true"},"abbreviation":"hurcs","google_tags_container_id":"GTM-K5J8ND9","google_analytics_id":"","mobile_navbar_text":"","banner_icon_url":""};
+</script>
+  <!--[[pageDataJson.js]]--><!--[[testTokenHeader]]--><script src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/runtime.js.download" defer=""></script><script src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/polyfills.js.download" defer=""></script><script src="./Welcome to the Hebrew University Research Computing Services _ The Rachel and Selim Benin School of Computer Science and Engineering _ The Hebrew University_files/main.js.download" defer=""></script><!-- c-en-slimC51-he-5688-10:51 -->
+<div id="forest-ext-shadow-host"></div></body></html>
